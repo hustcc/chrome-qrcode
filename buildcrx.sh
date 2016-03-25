@@ -116,7 +116,7 @@ sig="$build/$ext_name.sig"
 zip="$build/$ext_name.zip"
 
 # zip up the crx dir
-(cd "$build_ext" && git archive --format zip -qr -9 -X "$zip" .)
+(cd "$build_ext" && zip -qr -9 -X "$zip" .)
 
 # signature
 openssl sha1 -sha1 -binary -sign "$pem_file" < "$zip" > "$sig"
