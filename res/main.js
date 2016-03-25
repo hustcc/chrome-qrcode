@@ -22,7 +22,7 @@ var qrgen = require('../node_modules/jsqrgen');
             favicon_dom.src = tab.favIconUrl;
             show(favicon_dom);
         }
-        var url = encodeURIComponent(tab.url);
+        var url = tab.url;
         var options = {
             "cellSize": 8,
             "foreground": [
