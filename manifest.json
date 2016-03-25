@@ -12,6 +12,5 @@
    "manifest_version": 2,
    "name": "__MSG_extName__",
    "permissions": [ "tabs" ],
-   "version": "1.0.0",
-   "update_url": "http://www.atool.org/apis/chrome-plugins/chrome-qrcode.html"
+   "version": "1.0.0"
 }
