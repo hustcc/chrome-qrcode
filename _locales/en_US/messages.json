@@ -1,0 +1,11 @@
+{
+   "extDesp": {
+      "message": "Genrate QR Code From Current Tab's Url, Can Work when Offline."
+   },
+   "extName": {
+      "message": "Simple QR Generator"
+   },
+   "waiting": {
+      "message": "Please wait..."
+   }
+}
