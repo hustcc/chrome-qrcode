@@ -21,6 +21,9 @@ module.exports = {
     new uglifyJsPlugin({
       compress: {
         warnings: false,
+      },
+      output: {
+        comments: false,
       }
     })
   ]
