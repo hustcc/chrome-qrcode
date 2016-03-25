@@ -3,7 +3,7 @@
       "message": "根据当前页面的地址生成二维码，离线依然可以使用。"
    },
    "extName": {
-      "message": "二维码生成器"
+      "message": "极简二维码"
    },
    "waiting": {
       "message": "请稍等…"
