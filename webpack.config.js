@@ -2,7 +2,7 @@ var webpack = require('webpack');
 var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
 module.exports = {
-  entry: './res/main.js',
+  entry: ['./res/jquery.js', './res/main.js'],
   output: {
     filename: 'bundle.js'
   },

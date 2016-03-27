@@ -1,6 +1,6 @@
 {
    "extDesp": {
-      "message": "Genrate QR Code From Current Tab's Url, Can Work when Offline."
+      "message": "Genrate Short Url & QR Code From Current Tab's Url, Can Work when Offline."
    },
    "extName": {
       "message": "Simple QR Generator"

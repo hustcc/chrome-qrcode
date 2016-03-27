@@ -1,15 +1,16 @@
 * {padding: 0; margin: 0;}
 body {
     background: #fff;
+    height: 240px;
 }
-body #content {
+#content {
     position: relative;
 }
-body #content #qrcode {
+#content #qrcode {
     background: #fff;
     padding: 6px;
 }
-body #content #favicon {
+#content #favicon {
     display: none;
     opacity: .95;
     position: absolute;
@@ -22,4 +23,23 @@ body #content #favicon {
     margin-left: -12px;
     margin-top: -12px;
     border-radius: 3px;
+}
+
+
+#short_url_div {
+    position: absolute;
+    width: 200px;
+    left: 0px;
+    height: 35px;
+}
+
+#short_url {
+    padding: 5px;
+    width: 100%;
+    font: 100% arial;
+    border: 1px solid #E5E5DB;
+    background: #FFF;
+    color: #47433F;
+    height: 10px;
+    line-height: 15px;
 }
