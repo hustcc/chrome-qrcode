@@ -1,5 +1,5 @@
-require('./main.css');
-var qrgen = require('../node_modules/jsqrgen');
+require("./main.css");
+var qrgen = require("../node_modules/jsqrgen");
 
 (function() {
     function $_id(id) {
@@ -81,5 +81,24 @@ var qrgen = require('../node_modules/jsqrgen');
             }
         }
         qrcode_dom.src = qrgen.canvas(options).toDataURL();
+        // //请求获取短网址
+        $.post('http://dwz.cn/create.php', {url: url}, function(result) {
+            if (result.status == 0 && result.tinyurl) {
+                $_id("short_url").value = result.tinyurl;
+            } else {
+                $_id("short_url").value = url;
+            }
+        }, "json");
+
+        //选中文本复制
+        $_id("short_url").onclick = function() {
+            $_id("short_url").select();
+            var short_url = $_id("short_url").value;
+            document.execCommand("Copy");
+            $_id("short_url").value = "Copied. ^_^!";
+            setTimeout(function() {
+                $_id("short_url").value = short_url;
+            }, 1000);
+        }
     });
 })();
