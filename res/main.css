@@ -1,7 +1,7 @@
 * {padding: 0; margin: 0;}
 body {
     background: #fff;
-    height: 240px;
+    height: 170px;
 }
 #content {
     position: relative;
@@ -18,8 +18,8 @@ body {
     left: 50%;
     background: #fff;
     padding: 3px;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     margin-left: -12px;
     margin-top: -12px;
     border-radius: 3px;
@@ -28,7 +28,6 @@ body {
 
 #short_url_div {
     position: absolute;
-    width: 200px;
     left: 0px;
     height: 35px;
 }

@@ -1,16 +1,16 @@
 {
    "browser_action": {
-      "default_icon": "icon_32.png",
+      "default_icon": "icon/icon_32.png",
       "default_popup": "popup.html"
    },
    "default_locale": "zh_CN",
    "description": "__MSG_extDesp__",
    "icons": {
-      "128": "icon_128.png",
-      "32": "icon_32.png"
+      "128": "icon/icon_128.png",
+      "32": "icon/icon_32.png"
    },
    "manifest_version": 2,
    "name": "__MSG_extName__",
    "permissions": [ "tabs", "http://dwz.cn/", "clipboardWrite" ],
-   "version": "1.0.1"
+   "version": "1.0.2"
 }

@@ -1,17 +1,17 @@
-[![chrome-qrcode](origin-logo.png)](https://www.atool.org)
+[![chrome-qrcode](icon/origin-logo.png)](https://www.atool.org)
 
 ## [chrome-qrcode]
 
 一个非常简单的chrome插件，用于将当前页面的URL地址转换成一个二维码。使用效果如下图所示：
 
-![screenshot.png](screenshot.png)
+![res/screenshot.png](res/screenshot.png)
 
 意见反馈及主页: [http://www.atool.org/](http://www.atool.org/)
 
 ### 一、安装方法
 
 1. Chrome插件商店下载地址：[https://chrome.google.com/webstore/detail/%E6%9E%81%E7%AE%80%E4%BA%8C%E7%BB%B4%E7%A0%81/bfpobnbhgondhofhkolbelkijdmgfjfm](https://chrome.google.com/webstore/detail/%E6%9E%81%E7%AE%80%E4%BA%8C%E7%BB%B4%E7%A0%81/bfpobnbhgondhofhkolbelkijdmgfjfm)，请勿自行分发。【推荐】
-2. 自己下载[chrome-qrcode.crx](chrome-qrcode.crx)，拖入到浏览器中安装即可。
+2. 自己下载[crx/chrome-qrcode.crx](crx/chrome-qrcode.crx)，拖入到浏览器中安装即可。
 
 
 ### 二、目地背景
@@ -33,9 +33,11 @@
 
  - [jsqrgen](https://github.com/gera2ld/jsqrgen)
  - [webpack](https://github.com/webpack/webpack)
+ - [buildcrx](https://github.com/dangoakachan/buildcrx)
 
 ### 四、后续工作
 
 1. 二维码中心图片使用jsqrgen提供API完成；
 2. options配置页面；
-3. 短地址使用自己服务，dwz会屏蔽非常多域名。
+3. 短地址使用自己搭建的服务，dwz会屏蔽非常多域名；
+4. jsqrgen对于长文本出错的问题解决。
