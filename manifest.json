@@ -12,5 +12,5 @@
    "manifest_version": 2,
    "name": "__MSG_extName__",
    "permissions": [ "tabs", "http://dwz.cn/", "clipboardWrite" ],
-   "version": "1.0.0"
+   "version": "1.0.1"
 }
