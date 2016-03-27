@@ -10,8 +10,8 @@
 
 ### 一、安装方法
 
-1. Chrome插件商店下载地址：[https://chrome.google.com/webstore/detail/%E6%9E%81%E7%AE%80%E4%BA%8C%E7%BB%B4%E7%A0%81/bfpobnbhgondhofhkolbelkijdmgfjfm](https://chrome.google.com/webstore/detail/%E6%9E%81%E7%AE%80%E4%BA%8C%E7%BB%B4%E7%A0%81/bfpobnbhgondhofhkolbelkijdmgfjfm)，请勿自行发布。【推荐】
-2. 自己下载[chrome-qrcode.zip](chrome-qrcode.zip)，解压拖入到浏览器中。
+1. Chrome插件商店下载地址：[https://chrome.google.com/webstore/detail/%E6%9E%81%E7%AE%80%E4%BA%8C%E7%BB%B4%E7%A0%81/bfpobnbhgondhofhkolbelkijdmgfjfm](https://chrome.google.com/webstore/detail/%E6%9E%81%E7%AE%80%E4%BA%8C%E7%BB%B4%E7%A0%81/bfpobnbhgondhofhkolbelkijdmgfjfm)，请勿自行分发。【推荐】
+2. 自己下载[chrome-qrcode.crx](chrome-qrcode.crx)，拖入到浏览器中安装即可。
 
 
 ### 二、目地背景
