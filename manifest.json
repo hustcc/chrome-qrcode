@@ -11,6 +11,6 @@
    },
    "manifest_version": 2,
    "name": "__MSG_extName__",
-   "permissions": [ "tabs", "http://dwz.cn/", "clipboardWrite" ],
-   "version": "1.0.2"
+   "permissions": [ "tabs", "http://hust.cc/", "clipboardWrite" ],
+   "version": "1.0.3"
 }

@@ -74,14 +74,20 @@ var qrgen = require("../node_modules/jsqrgen");
         };
 
         qrcode_dom.src = qrgen.canvas(options).toDataURL();
-        // //请求获取短网址
-        $.post('http://dwz.cn/create.php', {url: url}, function(result) {
-            if (result.status == 0 && result.tinyurl) {
-                $_id("short_url").value = result.tinyurl;
-            } else {
-                $_id("short_url").value = url;
+        // 请求获取短网址
+        url = encodeURI(url);
+        $.getJSON(
+            'http://hust.cc/shorten?url=' + url,
+            function (data) {
+                if (data.status == 1) {
+                    $_id("short_url").value = data.s_url;
+                    options.data = data.s_url;
+                    qrcode_dom.src = qrgen.canvas(options).toDataURL();
+                } else {
+                    $_id("short_url").value = url;
+                }
             }
-        }, "json");
+        );
 
         //选中文本复制
         $_id("short_url").onclick = function() {
