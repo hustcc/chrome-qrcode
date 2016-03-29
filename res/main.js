@@ -73,7 +73,11 @@ var qrgen = require("../node_modules/jsqrgen");
             // }
         };
 
-        qrcode_dom.src = qrgen.canvas(options).toDataURL();
+        try { 
+            qrcode_dom.src = qrgen.canvas(options).toDataURL();
+        } catch (e) {
+        }
+        
         // 请求获取短网址
         url = encodeURI(url);
         $.getJSON(
@@ -82,7 +86,11 @@ var qrgen = require("../node_modules/jsqrgen");
                 if (data.status == 1) {
                     $_id("short_url").value = data.s_url;
                     options.data = data.s_url;
-                    qrcode_dom.src = qrgen.canvas(options).toDataURL();
+                    try { 
+                        qrcode_dom.src = qrgen.canvas(options).toDataURL();
+                    } catch (e) {
+                        $_id("short_url").value = url;
+                    }
                 } else {
                     $_id("short_url").value = url;
                 }
