@@ -1,11 +1,29 @@
 {
    "extDesp": {
-      "message": "根据当前页面的地址生成短地址和二维码，离线依然可以使用。"
+      "message": "通过右键菜单或地址栏按钮将当前页面地址、选中的文本、链接、图片地址等文本内容生成二维码，也可以解析页面中的二维码图片，完全离线可用，不依赖任何远程文件和服务，内存占用小，不常驻后台，界面简洁，绝无广告。"
    },
    "extName": {
       "message": "极简二维码"
    },
    "waiting": {
       "message": "请稍等…"
+   },
+   "generate": {
+      "message": "生成二维码图片"
+   },
+   "decode": {
+      "message": "解析二维码内容"
+   },
+   "showDecodeText": {
+      "message": "二维码中的内容为："
+   },
+   "showQRcodeImg": {
+      "message": "生成二维码图片为："
+   },
+   "copied": {
+      "message": "已复制 ^_^!"
+   },
+   "textToLong": {
+      "message": "生成二维码文字过长 ^_^!"
    }
 }

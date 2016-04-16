@@ -1,11 +1,29 @@
 {
    "extDesp": {
-      "message": "Genrate Short Url & QR Code From Current Tab's Url, Can Work when Offline."
+      "message": "Simple QR Generator ( absolute locally and offline, no ads ) : any text/image/link in the page, and decode the qrcode which seleted, etc."
    },
    "extName": {
       "message": "Simple QR Generator"
    },
    "waiting": {
       "message": "Please wait..."
+   },
+   "generate": {
+      "message": "Generate QRcode"
+   },
+   "decode": {
+      "message": "Decode QRcode"
+   },
+   "showDecodeText": {
+      "message": "The Content in QRcode is: "
+   },
+   "showQRcodeImg": {
+      "message": "QRcode Generated below: "
+   },
+   "copied": {
+      "message": "Copied. ^_^!"
+   },
+   "textToLong": {
+      "message": "Content is Too long to be QRcoded ^_^!"
    }
 }
