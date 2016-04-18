@@ -25,5 +25,5 @@
    "manifest_version": 2,
    "name": "__MSG_extName__",
    "permissions": [ "tabs", "contextMenus", "http://*/*", "https://*/*", "clipboardWrite" ],
-   "version": "1.0.6"
+   "version": "1.0.7"
 }
