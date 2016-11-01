@@ -81,7 +81,7 @@ var qrgen = require("../node_modules/jsqrgen");
         // 请求获取短网址
         url = encodeURI(url);
         $.getJSON(
-            'http://hust.cc/shorten?url=' + url,
+            'http://xo2.cn/shorten?url=' + url,
             function (data) {
                 if (data.status == 1) {
                     $_id("short_url").value = data.s_url;
